@@ -1,15 +1,19 @@
 {
-  "name": "my_app_name",
+  "name": "react-tailwindcss-sass",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "jest-dom": "^4.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "sass": "^1.26.5"
+    "sass": "^1.26.8",
+    "user-event": "^4.0.0",
+    "websocket-extensions": "^0.1.4",
+    "yargs-parser": "^18.1.3",
+    "yarn": "^1.22.4"
   },
   "scripts": {
     "build:tailwindcss": "postcss src/index.css -o src/assets/css/tailwind.css",
@@ -35,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/react": "^9.5.0",
     "autoprefixer": "^9.8.0",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.4.6"
