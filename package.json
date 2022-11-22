@@ -8,7 +8,7 @@
     "jest-dom": "^4.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
+    "react-scripts": "5.0.1",
     "sass": "^1.26.8",
     "user-event": "^4.0.0",
     "websocket-extensions": "^0.1.4",
